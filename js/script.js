@@ -68,3 +68,22 @@ const video = ['youtube', 'vimeo', 'tiktok'],
 console.log(video);
 console.log(blogs);
 console.log(internet);
+
+function log(a, b, c) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+
+const num = [2, 5, 6];
+log(...num);
+
+const array = ['a', 'b'];
+const newArray = [...array];
+
+const q = {
+    one: 1,
+    two: 2
+};
+
+const qq = {...q};
